@@ -13,7 +13,7 @@ if(isset($_POST["submit"])){
 
   if($age!=0)
   {
-    $query = "INSERT INTO reg VALUES('', '$fname', '$lname', '$age', '$email', '$tel', '$gender', '$package')";
+    $query = "INSERT INTO reg (fname,lname,age,email,tel,gender,package) VALUES('$fname', '$lname', '$age', '$email', '$tel', '$gender', '$package')";
     mysqli_query($conn, $query);
     echo
     "

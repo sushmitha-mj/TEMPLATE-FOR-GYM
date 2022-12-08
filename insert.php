@@ -1,3 +1,3 @@
 <?php
-$conn = mysqli_connect("sql6.freemysqlhosting.net", "sql6522081","gUa5P2kEeq", "sql6522081" );
+$conn = mysqli_connect("remotemysql.com", "YT16dOgY3p","5piJVLaxOe", "YT16dOgY3p" );
 ?>
